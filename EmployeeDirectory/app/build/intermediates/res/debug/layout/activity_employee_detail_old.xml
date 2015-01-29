@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/details_emp_id"
+            style="@style/details_id"
+            android:text="@string/EmpID" />
+
+        <TextView
+            android:id="@+id/details_emp_id_value"
+            style="@style/details_value"
+            android:text="@string/EmpID" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/details_emp_name"
+            style="@style/details_id"
+            android:text="@string/EmpName" />
+
+        <TextView
+            android:id="@+id/details_emp_name_value"
+            style="@style/details_value"
+            android:text="@string/EmpName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/details_emp_profession"
+            style="@style/details_id"
+            android:text="@string/EmpProfession" />
+
+        <TextView
+            android:id="@+id/details_emp_profession_value"
+            style="@style/details_value"
+            android:text="@string/EmpProfession" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/details_emp_experience"
+            style="@style/details_id"
+            android:text="@string/EmpExperience" />
+
+        <TextView
+            android:id="@+id/details_emp_experience_value"
+            style="@style/details_value"
+            android:text="@string/EmpExperience" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/EmpEditBtn"
+            style="@style/details_value"
+            android:text="@string/EditEmployee"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/EmpDeleteBtn"
+            style="@style/details_value"
+            android:text="@string/DeleteEmployee"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/src/main/res/layout/activity_employee_detail_old.xml -->

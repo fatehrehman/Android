@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Employee Directory</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="EmpName">Name</string>
+    <string name="EmpProfession">Profession</string>
+    <string name="EmpExperience">Experience</string>
+    <string name="EmpExperienceHint">Experience in Years</string>
+    <string name="EmpImage">Images</string>
+    <string name="DeleteImage">x</string>
+    <string name="AddEmployee">Create New Employee</string>
+    <string name="AddEmployeeBtn">Create Employee</string>
+    <string name="ListEmployee">Employees List</string>
+    <string name="EmpID">ID</string>
+    <string name="EditEmployee">Edit</string>
+    <string name="DeleteEmployee">Delete</string>
+    <string name="SaveBtn">Save</string>
+    <string name="CanelBtn">Cancel</string>
+
+</resources>

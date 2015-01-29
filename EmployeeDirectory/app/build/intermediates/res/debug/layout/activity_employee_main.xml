@@ -1,0 +1,22 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/empCreateBtn"
+            style="@style/createform"
+            android:text="@string/AddEmployee" />
+
+        <Button
+            android:id="@+id/empListBtn"
+            style="@style/createform"
+            android:text="@string/ListEmployee" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/src/main/res/layout/activity_employee_main.xml -->

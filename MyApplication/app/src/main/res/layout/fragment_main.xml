@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:id="@+id/app_menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:text="@string/menu_button_1"
+            android:id="@+id/button1"
+            android:layout_alignParentStart="true"
+            android:background="#ff27ff40"
+            android:layout_margin="18dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:text="@string/menu_button_2"
+            android:id="@+id/button2"
+            android:background="#ffffb127"
+            android:layout_margin="18dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/linearLayout3">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:text="@string/menu_button_3"
+            android:id="@+id/button3"
+            android:background="#ffc35bff"
+            android:layout_margin="18dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:text="@string/menu_button_4"
+            android:id="@+id/button4"
+            android:background="#ffff223c"
+            android:layout_margin="18dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:text="@string/menu_button_5"
+            android:id="@+id/button5"
+            android:background="#ffc35bff"
+            android:layout_margin="18dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:text="@string/menu_button_6"
+            android:id="@+id/button6"
+            android:background="#ffff223c"
+            android:layout_margin="18dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

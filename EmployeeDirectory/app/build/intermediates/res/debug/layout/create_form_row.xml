@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:text="@string/DeleteImage"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/textout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@id/remove"
+        android:contentDescription="@string/EmpImage"
+        android:src="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="88dp"
+        android:text="TextView"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/src/main/res/layout/create_form_row.xml -->

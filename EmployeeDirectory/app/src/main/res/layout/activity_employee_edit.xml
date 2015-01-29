@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/details_emp_id"
+                style="@style/edit_id"
+                android:text="@string/EmpID" />
+
+            <TextView
+                android:id="@+id/details_emp_id_value"
+                style="@style/edit_value"
+                android:text="@string/EmpID" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/details_emp_name"
+                style="@style/edit_id"
+                android:text="@string/EmpName" />
+
+            <EditText
+                android:id="@+id/details_emp_name_value"
+                style="@style/edit_value"
+                android:hint="@string/EmpName"
+                android:inputType="textCapWords" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/details_emp_profession"
+                style="@style/edit_id"
+                android:text="@string/EmpProfession" />
+
+            <EditText
+                android:id="@+id/details_emp_profession_value"
+                style="@style/edit_value"
+                android:hint="@string/EmpProfession"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/details_emp_experience"
+                style="@style/edit_id"
+                android:text="@string/EmpExperience" />
+
+            <EditText
+                android:id="@+id/details_emp_experience_value"
+                style="@style/edit_value"
+                android:hint="@string/EmpExperienceHint"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/empProfImgbtn"
+            style="@style/createformimg"
+            android:contentDescription="@string/EmpImage"
+            android:src="@drawable/select_profile" />
+
+        <ImageView
+            android:id="@+id/empProfImg"
+            style="@style/createformimg"
+            android:contentDescription="@string/EmpImage"
+            android:src="@drawable/profile_icon" />
+
+        <ImageView
+            android:id="@+id/empImg"
+            style="@style/createformimg"
+            android:contentDescription="@string/EmpImage"
+            android:src="@drawable/select" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/EmpSaveBtn"
+                style="@style/details_id"
+                android:text="@string/SaveBtn" />
+
+            <Button
+                android:id="@+id/EmpCancelBtn"
+                style="@style/details_id"
+                android:text="@string/CanelBtn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

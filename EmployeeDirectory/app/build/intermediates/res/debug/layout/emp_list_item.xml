@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dip" >
+
+    <ImageView
+        android:id="@+id/empprofileimg"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/EmpImage"
+        android:src="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/empname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/empprofileimg"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/empprofileimg"
+        android:text="@string/EmpName"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/empdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/empprofileimg"
+        android:layout_alignLeft="@+id/empname"
+        android:text="@string/EmpExperience" />
+
+    <TextView
+        android:id="@+id/empid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empname"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/empdetails"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/empprofileimgvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/empdetails"
+        android:layout_alignBottom="@+id/empdetails"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="33dp"
+        android:text="@string/EmpImage"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/src/main/res/layout/emp_list_item.xml -->

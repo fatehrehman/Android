@@ -1,0 +1,5 @@
+/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/build/intermediates/classes/debug
+/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c8f11e6044492907b6bc926626084f940466f3f5.jar
+/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-3eee42a0b2d46171f2edcb7dacbb2ff020bab303.jar
+/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/build/intermediates/pre-dexed/debug/classes-552d731c0982081aaabccacef1fffe6b8892ba76.jar
+/home/fatehrehman/AndroidStudioProjects/EmployeeDirectory/app/build/intermediates/pre-dexed/debug/classes-b12ed4690c4c65500022367886df12ff2420fb5d.jar

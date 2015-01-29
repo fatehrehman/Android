@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewAddEmployee"
+            style="@style/createform"
+            android:gravity="center"
+            android:text="@string/AddEmployee" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            style="@style/createform"
+            android:hint="@string/EmpName"
+            android:inputType="textCapWords" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextProfession"
+            style="@style/createform"
+            android:hint="@string/EmpProfession"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/editTextExperience"
+            style="@style/createform"
+            android:hint="@string/EmpExperienceHint"
+            android:inputType="numberDecimal" />
+
+        <ImageView
+            android:id="@+id/empProfImgbtn"
+            style="@style/createformimg"
+            android:contentDescription="@string/EmpImage"
+            android:src="@drawable/select_profile" />
+        
+         <ImageView
+            android:id="@+id/empProfImg"
+            style="@style/createformimg"
+            android:contentDescription="@string/EmpImage"
+            android:src="@drawable/profile_icon" />
+        
+        <ImageView
+            android:id="@+id/empImg"
+            style="@style/createformimg"
+            android:contentDescription="@string/EmpImage"
+            android:src="@drawable/select" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/empImgOneName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EmpImage"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/empImgTwoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EmpImage"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/empImgThreeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EmpImage"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/empImgFourName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EmpImage"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/empCreateBtn"
+            style="@style/createform"
+            android:text="@string/AddEmployee" />
+
+        <View style="@style/createform" />
+    </LinearLayout>
+
+</ScrollView>

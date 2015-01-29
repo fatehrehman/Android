@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/prfile_image_value"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/EmpImage"
+            android:src="@drawable/profile_icon" />
+
+        <TextView
+            android:id="@+id/details_emp_id_value"
+            style="@style/details_value"
+            android:text="@string/EmpID"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/details_emp_name_value"
+            style="@style/details_value"
+            android:text="@string/EmpName" />
+
+        <TextView
+            android:id="@+id/details_emp_profession_experience"
+            style="@style/details_value"
+            android:text="@string/EmpProfession" />
+
+        <LinearLayout
+            style="@style/details_value"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/EmpEditBtn"
+                style="@style/details_value"
+                android:layout_width="wrap_content"
+                android:onClick="Clicked"
+                android:text="@string/EditEmployee" />
+
+            <Button
+                android:id="@+id/EmpDeleteBtn"
+                style="@style/details_value"
+                android:layout_width="wrap_content"
+                android:onClick="Clicked"
+                android:text="@string/DeleteEmployee" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/imagecontainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+            
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>

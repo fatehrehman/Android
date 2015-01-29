@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/fatehrehman/Documents/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/fatehrehman/AndroidStudioProjects/tictactoe2015/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-c8f11e6044492907b6bc926626084f940466f3f5.jar" />
+    </item>
+    <item
+        jar="/home/fatehrehman/AndroidStudioProjects/tictactoe2015/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/fatehrehman/AndroidStudioProjects/tictactoe2015/app/build/intermediates/pre-dexed/release/classes-84ad918cce27c80050515ab5cdd095bae647a16f.jar" />
+    </item>
+    <item
+        jar="/home/fatehrehman/AndroidStudioProjects/tictactoe2015/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/fatehrehman/AndroidStudioProjects/tictactoe2015/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-229f9ba4375b71ebb4b3797904e17a6aed3cfebf.jar" />
+    </item>
+    <item
+        jar="/home/fatehrehman/AndroidStudioProjects/tictactoe2015/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/fatehrehman/AndroidStudioProjects/tictactoe2015/app/build/intermediates/pre-dexed/release/classes-e0fecdffed57b99937073428ad4a0a407647f99d.jar" />
+    </item>
+
+</items>

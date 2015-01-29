@@ -1,0 +1,140 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/EmployeeDirectory.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/example/
+* app/src/main/java/com/example/employeedirectory/
+* app/src/main/java/com/example/employeedirectory/Employee.java
+* app/src/main/java/com/example/employeedirectory/EmployeeCreate.java
+* app/src/main/java/com/example/employeedirectory/EmployeeCreate_backup.java
+* app/src/main/java/com/example/employeedirectory/EmployeeDB.java
+* app/src/main/java/com/example/employeedirectory/EmployeeDetails.java
+* app/src/main/java/com/example/employeedirectory/EmployeeDetails_backup.java
+* app/src/main/java/com/example/employeedirectory/EmployeeEdit.java
+* app/src/main/java/com/example/employeedirectory/EmployeeEdit_backup.java
+* app/src/main/java/com/example/employeedirectory/EmployeeImage.java
+* app/src/main/java/com/example/employeedirectory/EmployeeList.java
+* app/src/main/java/com/example/employeedirectory/EmployeeMain.java
+* app/src/main/java/com/example/employeedirectory/EmployeesList.java
+* app/src/main/java/com/example/employeedirectory/ImageFilePath.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/profile_icon.png
+* app/src/main/res/drawable-hdpi/select.png
+* app/src/main/res/drawable-hdpi/select_profile.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxxhdpi/
+* app/src/main/res/drawable-xxxhdpi/ic_launcher.png
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_employee_create.xml
+* app/src/main/res/layout/activity_employee_detail.xml
+* app/src/main/res/layout/activity_employee_detail_old.xml
+* app/src/main/res/layout/activity_employee_edit.xml
+* app/src/main/res/layout/activity_employee_image.xml
+* app/src/main/res/layout/activity_employee_list.xml
+* app/src/main/res/layout/activity_employee_main.xml
+* app/src/main/res/layout/activity_employees_list.xml
+* app/src/main/res/layout/copy_emp_list_item.xml
+* app/src/main/res/layout/create_form_row.xml
+* app/src/main/res/layout/emp_list_item.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values-w820dp/
+* app/src/main/res/values-w820dp/dimens.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
