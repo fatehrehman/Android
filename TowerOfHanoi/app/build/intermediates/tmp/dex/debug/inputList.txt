@@ -1,0 +1,6 @@
+/home/fatehrehman/AndroidStudioProjects/TowerOfHanoi/app/build/intermediates/classes/debug
+/home/fatehrehman/AndroidStudioProjects/TowerOfHanoi/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-d3fb8cb75ac76748071c55015f911c6ee05cadb9.jar
+/home/fatehrehman/AndroidStudioProjects/TowerOfHanoi/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2ad8897dba62850e0b69e620f3dda124c97a7c8b.jar
+/home/fatehrehman/AndroidStudioProjects/TowerOfHanoi/app/build/intermediates/pre-dexed/debug/classes-efc3af2b70f9692164e77a36946bc8e892f76f9b.jar
+/home/fatehrehman/AndroidStudioProjects/TowerOfHanoi/app/build/intermediates/pre-dexed/debug/classes-12aa1eb184594d287f9ec9456274f04b72da3873.jar
+/home/fatehrehman/AndroidStudioProjects/TowerOfHanoi/app/build/intermediates/pre-dexed/debug/classes-f0304ff92238ea5fb5cc4a0177f30aaae1c36fbf.jar
